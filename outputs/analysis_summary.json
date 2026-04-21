@@ -1,0 +1,32 @@
+{
+  "project": "Steam Launch Success Predictor",
+  "dataset": {
+    "total_games": 2500,
+    "unique_developers": 200,
+    "date_range": "2020-01-01 to 2023-12-29",
+    "top_10_threshold": 67.9
+  },
+  "model_performance": {
+    "algorithm": "Gradient Boosting Regressor",
+    "cv_r2_mean": 0.414,
+    "cv_r2_std": 0.037,
+    "cv_mae_mean": 8.89,
+    "cv_mae_std": 0.27,
+    "top_5_features": {
+      "wishlists": 0.565,
+      "marketing_score": 0.139,
+      "developer_avg_prior_rating": 0.0889,
+      "developer_prior_titles": 0.0444,
+      "genre_encoded": 0.0323
+    }
+  },
+  "key_findings": {
+    "top10_avg_wishlists": 63405,
+    "top10_avg_prior_rating": 0.702,
+    "top10_positive_ratio": 0.76,
+    "top10_established_rate": 0.508,
+    "top10_demo_rate": 0.236,
+    "bottom90_avg_wishlists": 5249,
+    "wishlist_multiplier": 12.1
+  }
+}
