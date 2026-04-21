@@ -108,7 +108,7 @@ steam-launch-predictor/
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/steam-launch-predictor.git
+https://github.com/Why-not-techno/Steam-Launch-Success-Predictor.git
 cd steam-launch-predictor
 
 # Install dependencies
